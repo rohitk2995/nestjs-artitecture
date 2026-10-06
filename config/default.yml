@@ -1,0 +1,26 @@
+
+
+server:
+    port: 3000
+
+db:
+    type: "postgres"
+    port: 5432
+    username: "CHANGE_ME"
+    host: "localhost"
+    database: "nest_js"
+    password: "CHANGE_ME"
+
+jwt:
+    ExpireIn: 604800
+    SecretKey: "CHANGE_ME"
+
+email:
+    host: "smtp.example.com"
+    user: "CHANGE_ME"
+    pass: "CHANGE_ME"
+    port: 465
+    secure: true
+
+Sentry:
+    DSN: ""

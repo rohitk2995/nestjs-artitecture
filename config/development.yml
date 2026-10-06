@@ -1,0 +1,7 @@
+
+db:
+    synchronize: true
+
+jwt:
+    secret: "CHANGE_ME"
+
